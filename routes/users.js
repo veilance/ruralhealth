@@ -6,13 +6,18 @@ const router  = express.Router();
 module.exports = (knex) => {
 
   router.get("/", (req, res) => {
-    knex
-      .select("*")
-      .from("users")
+    knex('users')
+    .count('id')
       .then((results) => {
         res.json(results);
     });
   });
+
+  router.get("/users/allergies", (req, res) => {
+    knex('users')
+    .count('allergies')
+    .where('allergies', 'like', '%dairy%')
+  })
 
   router.post("/", (req, res) => {
     const data = Object.keys(req.body)
