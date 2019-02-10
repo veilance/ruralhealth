@@ -1,27 +1,31 @@
-exports.up = function(knex, Promise) {
-  return knex.schema.createTable('users', function (table) {
+exports.up = async function(knex, Promise) {
+  await knex.schema.createTable('users', function (table) {
     table.increments();
-    table.string('medical_id').unique();
+    table.string('medical_id');
     table.string('first_name');
     table.string('last_name');
     table.string('sex');
     table.string('city');
+    table.string('province');
     table.date('date_of_birth');
-    table.string('weight');
+    table.float('weight');
     table.string('blood_type');
-    table.string('height');
+    table.float('height');
     table.string('allergies');
     table.string('chronic_health_problems');
-    table.string('approx_alcohol_consumption');
-    table.boolean('period');
-    table.float('blood_pressure');
+    table.integer('approx_alcohol_consumption');
+    table.integer('approx_smoking_consumption')
+    table.integer('blood_pressure_systolic');
+    table.integer('blood_pressure_diastolic');
     table.string('surgeries');
     table.string('symptoms');
-    table.string('vaccinations');
+    table.boolean('vaccinations');
     table.string('medications');
+    table.boolean('flu_shot');
+    table.boolean('ubc');
   });
 };
 
-exports.down = function(knex, Promise) {
-  return knex.schema.dropTable('users');
+exports.down = async function(knex, Promise) {
+  await knex.schema.dropTable('users');
 };
