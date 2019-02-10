@@ -13,10 +13,26 @@ module.exports = (knex) => {
     });
   });
 
-  router.get("/users/allergies", (req, res) => {
+  router.get("dairy", (req, res) => {
     knex('users')
     .count('allergies')
-    .where('allergies', 'like', '%dairy%')
+    .where('allergies', 'like', '%Dairy%')
+    .then((results) => {
+      res.json(results);
+    }).catch(error => {
+      console.log(error)
+    })
+  })
+
+  router.get("peanuts", (req, res) => {
+    knex('users')
+    .count('allergies')
+    .where('allergies', 'like', '%Peanuts%')
+    .then((results) => {
+      res.json(results);
+    }).catch(error => {
+      console.log(error)
+    })
   })
 
   router.post("/", (req, res) => {
