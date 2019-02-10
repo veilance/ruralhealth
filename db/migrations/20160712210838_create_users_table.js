@@ -10,16 +10,16 @@ exports.up = async function(knex, Promise) {
     table.date('date_of_birth');
     table.float('weight');
     table.string('blood_type');
-    table.float('height');
+    table.integer('height');
     table.string('allergies');
     table.string('chronic_health_problems');
-    table.integer('approx_alcohol_consumption');
-    table.integer('approx_smoking_consumption')
+    table.string('approx_alcohol_consumption');
+    table.string('approx_smoking_consumption');
     table.integer('blood_pressure_systolic');
     table.integer('blood_pressure_diastolic');
     table.string('surgeries');
     table.string('symptoms');
-    table.boolean('vaccinations');
+    table.string('vaccinations');
     table.string('medications');
     table.boolean('flu_shot');
     table.boolean('ubc');
