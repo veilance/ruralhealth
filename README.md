@@ -15,15 +15,18 @@ React Native, Expo, React, Express, Node, Knex and PSQL
 
 1. Clone this repository
 2. Clone the web app here: https://github.com/veilance/ruralhealth-dashboard
-3. Navigate to web app and install all dependencies by running ``npm install``
-4. Navigate to chishiki-server and install all dependencies by running ``npm install``
-5. In the chishiki-server repository intiate a psql database called ruralhealth, run knex migrate:rollback, knex migrate:latest and knex seed:run to seed the database on psql
+3. Clone the mobile app here: https://github.com/2ManyProjects/XDHacks
+4. Navigate to web app and install all dependencies by running ``npm install``
+5. Navigate to chishiki-server and install all dependencies by running ``npm install``
+6. In the chishiki-server repository intiate a psql database called ruralhealth, run knex migrate:rollback, knex migrate:latest and knex seed:run to seed the database on psql
+7. Navigate to the chishiki mobile app and install all dependencies by running ``npm install``
 
 ## Run the servers
 
 1. In a separate terminal window, navigate to chishiki-server and run ``npm start``
 2. Run the chishiki web app by running ``yarn start``
-3. Congratulations you can now see our dashboard and our backend infrastructure
+3. Run the chishiki mobile app by running ``expo start``
+4. Congratulations you can now see our dashboard, mobile app and our backend infrastructure
 
 ## Future Work
 
