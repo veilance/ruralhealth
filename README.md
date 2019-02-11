@@ -36,9 +36,9 @@ Some future work would be:
 
 ## Contributors
 
-UX/UI Designer - Joey Limmena - https://www.linkedin.com/in/joeylimmena/
-Software Developer (Mobile) - Shaiv Kamat
-Researcher - Nene Wayo Suigura
+- UX/UI Designer - Joey Limmena - https://www.linkedin.com/in/joeylimmena/
+- Software Developer (Mobile) - Shaiv Kamat
+- Researcher - Nene Wayo Suigura
 
 
 ## Dependencies
