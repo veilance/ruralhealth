@@ -40,7 +40,7 @@ Some future work would be:
 ## Contributors
 
 - UX/UI Designer - Joey Limmena - https://www.linkedin.com/in/joeylimmena/
-- Software Developer (Mobile) - Shaiv Kamat
+- Software Developer (Mobile) - Shaiv Kamat -https://github.com/2ManyProjects
 - Researcher - Nene Wayo Suigura
 
 
