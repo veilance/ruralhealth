@@ -34,6 +34,12 @@ Some future work would be:
 1. The web dashboard has to implement the dashboard that the UX/UI designer laid out in the presentation slides attached
 2. The web dashboard needs to get the information from the database and refresh
 
+## Contributors
+
+UX/UI Designer - Joey Limmena - https://www.linkedin.com/in/joeylimmena/
+Software Developer (Mobile) - Shaiv Kamat
+Researcher - Nene Wayo Suigura
+
 
 ## Dependencies
 
