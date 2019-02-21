@@ -4,7 +4,7 @@ Chishiki - UBC XDHACKS 4th PLACE OUT OF 200 PARTICIPANTS
 Mobile / Web App to provide healthcare infrastructure for rural communities.
 
 ### Final Product
-
+!["Chishiki Dashboard"](https://github.com/veilance/ruralhealth/blob/master/docs/chishiki.png)
 https://docs.google.com/presentation/d/12s2K7LhGhNTCpb905hGA49MPoACi1kqUOTh6b5NnvJU/edit?usp=sharing
 
 ## Built With
